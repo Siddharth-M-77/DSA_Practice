@@ -93,6 +93,7 @@ console.log(containsDuplicate(nums))
  * Target: Time O(n), Space O(1)
  * ------------------------------------------------------------------------- */
 function isAnagram(s, t) {
+  if(s.length !== t.length) return false;
   todo();
 }
 
